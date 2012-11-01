@@ -1,1 +1,1 @@
-.First.lib <- function(lib, pkg) library.dynam("fpow", pkg, lib)
+.onLoad <- function(lib, pkg) library.dynam("fpow", pkg, lib)
