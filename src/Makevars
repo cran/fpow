@@ -1,0 +1,12 @@
+# CFLAGS=
+# PKG_CFLAGS=
+# PKG_LIBS=
+
+SOURCES = fpow.c init.c
+
+OBJECTS = $(SOURCES:.c=.o)
+
+all: $(SHLIB)
+
+$(SHLIB): $(OBJECTS)
+	$(CC) $(CFLAGS) -shared -o $@ $(OBJECTS) $(LDFLAGS)

@@ -16,4 +16,10 @@ ncparamF(type1, type2, nu1, nu2)
 }
 \value{The noncentrality parameter is returned.
 }
-\keyword{power of F-Test, minimal detectable differences, ANOVA}
+\examples{
+result <- ncparamF(0.05, 0.10, 2, 10)
+stopifnot(all.equal(result, 17.43876, tolerance = 1e-5))
+}
+\concept{power of F-Test}
+\concept{minimal detectable differences}
+\keyword{ANOVA}

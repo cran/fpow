@@ -7,9 +7,10 @@ On the computation of the noncentral F and noncentral beta distribution;
 Statistics and Computing, 2008, 18 (3), 333-340.
 http://dx.doi.org/10.1007/s11222-008-9061-3
 
-Preprint of this paper is available at http://reliablecomputing.eu
+Preprint of this paper is available at 
+https://baharev.info/publications/ncbeta.pdf
 
-My e-mail address is: (my first name) dot (my last name) at gmail dot com
+My e-mail address is: ali.baharev@gmail.com
 
 */
 
